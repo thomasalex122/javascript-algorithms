@@ -45,19 +45,35 @@ npm run deploy
 
 This requires you to have commit access to your Git remote.
 
-## Contributions
+---
 
-Fork the repo and make required changes. Afterwards, push your changes in branch. The name will be according to the changes you did. Initiate the pull request.
+## How to Contribute
 
-Make sure your editor makes validations according to the `.jshintrc` in the root directory of the repository.
+1. **Fork the repo** and create your branch from `main`.
+2. **Make your changes**, adhering to the project's coding standards.
+3. **Ensure your code passes the linter**:
+   ```bash
+   npm run lint
+   ```
+4. **Run the build process**:
+   ```bash
+   npm run build
+   ```
+   - If the build fails, fix the issues in your code.
+5. **Create a pull request**.
 
-Before pushing to the repository, run:
+## Code Style
 
-```bash
-npm run build
-```
+- Follow the `.jshintrc` guidelines located in the root directory.
 
-If the build is not successful, fix your code in order for the tests and jshint validation to run successfully. Then create a pull request.
+## Opening Issues
+
+- For major changes, open an issue first to discuss your ideas.
+
+Thank you for your contributions!
+
+---
+
 
 ## Contributors
 
